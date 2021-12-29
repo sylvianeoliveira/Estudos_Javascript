@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Shizuru&display=swap');
+
+h2{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Bangers', cursiva;
+    letter-spacing: 4px;
+    margin-top: 50px;
+    margin-bottom: -15px;
+    color: #AAA196;
+}
+
+h5{
+    font-size: 20px;
+    text-align:right;
+    font-family: 'Bangers', cursiva;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    color: #AAA196;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 480px;
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.celula{
+    width: 150px;
+    height: 140px;
+    font-size: 75px;
+    margin: 5px 5px;
+    font-weight: 700;
+    padding-top: 20px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #51aeae;
+    font-family: 'Shizuru', cursiva;
+    color: #000000;
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Bangers', cursiva;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #AAA196;
+    margin-top: 10px;
+}
+
+h4{
+    font-size: 25px;
+    font-family: 'Bangers', cursiva;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #AAA196;
+    margin-top: 0px;
+}
+
+button{
+    font-size: 30px;
+    font-family: 'Bangers', cursiva;
+    letter-spacing: 4px;
+    color: #AAA196;
+    margin: 20px 10px;
+    border-radius: 7px;
+    padding: 7px;
+    position: relative;
+    left:9%;
+}
+
+#tela-final{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Bangers', cursiva;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #000000;
+}
